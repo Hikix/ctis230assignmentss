@@ -1,0 +1,57 @@
+body {
+    color: black;
+    font-family: Comic Sans MS;
+}
+
+ul {
+    color: #478;
+    font-size: 24px;
+}
+
+div.bankai {
+    opacity: 50%;
+
+}
+
+div.bankai:hover {
+    opacity: 100%;
+    transition: opacity 1s;
+}
+
+div.bankai:active {
+    opacity: 100%;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+h2 {
+    background-color:aquamarine;
+    width: fit-content;
+
+}
+
+a {
+    color:red;
+    text-decoration: overline;
+}
+
+a:hover {
+    color: blue;
+
+}
+
+table {
+    background-color: rgba(12, 230, 4, 0.623);
+}
+
+tr {
+    background-color: blue;
+}
+
+td {
+    background-color: red;
+    border: 2px dotted;
+}

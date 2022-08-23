@@ -1,0 +1,128 @@
+* {
+    /*border: 0.1em dotted;
+    */
+}
+
+h1.heading {
+    font-family: Comic Sans MS;
+    font-size: 39px;
+    margin-bottom: 6px;
+    padding-left: 5.6em;
+}
+
+h1.heading:hover {
+    background-color: aqua;
+}
+
+a.links {
+    text-decoration: none;
+    color: violet;
+    padding-left: 16em;
+}
+
+a.links:hover {
+    color: red;
+}
+
+a.links:active {
+    text-decoration: dotted;
+    color: brown;
+}
+
+a.inlinelinks {
+    text-decoration: none;
+    color: violet;
+
+}
+
+a.inlinelinks:hover {
+    color: red;
+}
+
+a.inlinelinks:active {
+    text-decoration: dotted;
+    color: brown;
+}
+
+body {
+    background-color: rgb(164, 255, 255);
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 2.25vw;
+
+
+    /*animation: blinking 2s infinite;*/
+}
+
+h2.subH {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    /*animation: blinking 2s infinite;*/
+    padding-left: 13em;
+}
+
+h2#subH2 {
+    padding-left: 7em;
+}
+
+@keyframes blinking {
+    0% {
+        color: red;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: green;
+    }
+
+    30% {
+        color: yellow;
+    }
+
+    40% {
+        color: orange;
+    }
+
+    50% {
+        color: rgb(81, 173, 81);
+    }
+
+    60% {
+        color: orangered;
+    }
+
+    70% {
+        color: rgb(40, 46, 134);
+    }
+
+    80% {
+        color: rgb(98, 128, 18);
+    }
+
+    90% {
+        color: rgb(112, 24, 51);
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+
+p.bank {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 5.6em;
+
+}
+
+img.image {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-left: 15em;
+
+}
