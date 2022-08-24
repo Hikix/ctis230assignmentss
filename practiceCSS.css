@@ -7,7 +7,7 @@ h1.heading {
     font-family: Comic Sans MS;
     font-size: 39px;
     margin-bottom: 6px;
-    padding-left: 5.6em;
+    text-align: center;
 }
 
 h1.heading:hover {
@@ -17,10 +17,14 @@ h1.heading:hover {
 a.links {
     text-decoration: none;
     color: violet;
-    padding-left: 20em;
+
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
     font-weight: 600;
+}
+
+p.links {
+    text-align: center;
 }
 
 a.links:hover {
@@ -30,6 +34,11 @@ a.links:hover {
 a.links:active {
     text-decoration: dotted;
     color: brown;
+}
+
+a.links:visited {
+    text-decoration: dashed;
+    color:darkorchid;
 }
 
 a.inlinelinks {
@@ -61,12 +70,10 @@ h2.subH {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     animation: blinking 2s infinite;
-    padding-left: 13em;
+    text-align: center;
 }
 
-h2#subH2 {
-    padding-left: 13em;
-}
+
 
 @keyframes blinking {
     0% {
@@ -119,7 +126,7 @@ p.text {
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
     font-weight: 600;
-    padding-left: 11em;
+    text-align: center;
 
 }
 
