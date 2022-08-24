@@ -57,12 +57,12 @@ body {
 h2.subH {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    /*animation: blinking 2s infinite;*/
+    animation: blinking 2s infinite;
     padding-left: 13em;
 }
 
 h2#subH2 {
-    padding-left: 7em;
+    padding-left: 13em;
 }
 
 @keyframes blinking {
