@@ -120,6 +120,8 @@ body {
     /*animation: blinking 2s infinite;*/
 }
 
+
+
 h2.subH {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
@@ -138,13 +140,39 @@ section {
 
 }
 
+footer {
+    background-color: rgb(169, 245, 245);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: rgb(80, 80, 146) solid 10px;
+    animation: borderblinking 2s infinite;
+}
+
+img.scrollup {
+    width: 30px;
+
+}
+
+div.scroll {
+    position: fixed;
+    background-color: white;
+    border: white solid 5px;
+    bottom: 25px;
+    left: 635px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 80%;
+}
+
 @keyframes blinks {
     0% {
         color: greenyellow;
     }
 
     50% {
-        color:orange;
+        color: orange;
     }
 
     100% {

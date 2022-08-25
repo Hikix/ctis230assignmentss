@@ -1,11 +1,25 @@
 body {
     color: black;
     font-family: Comic Sans MS;
-    font-size: 2em;
-    font-weight: bolder;
-    background-color: aqua;
+    font-size: 1em;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: khaki;
+
 }
 
+h1, p {
+    text-align: center;
+    border: 2px dotted brown;
+    font-size: 1em;
+}
+
+button#mybutton {
+    color: red;
+    background-color: blue;
+    border: green solid 10px;
+    font-size: 20px;
+}
 
 footer {
     background-color: gray;
