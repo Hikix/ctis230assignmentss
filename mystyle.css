@@ -3,21 +3,26 @@ body {
     font-family: Comic Sans MS;
     font-size: 2em;
     font-weight: bolder;
+    background-color: aqua;
 }
 
 
 footer {
     background-color: gray;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(rubyyyyy.png);
 }
 
 div.nav {
     font-size: 1.25em;
     text-align: center;
     background-color: orange;
-    border: 2px dotted green;
-    height: 50%;
+    border: 2px solid green;
+    padding-bottom: 35px;
+    padding-top: 5px;
+    height: 20%;
+    width: calc(30% -30px);
 }
 
 div.navbar {
