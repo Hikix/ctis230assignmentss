@@ -62,11 +62,11 @@ div.nav:hover div.dropdownmenu a {
     font-size: 7em;
   }
 
-
+/* 
 @media (max-width: 750px) {
     #background-vid { display: none; }
     body {
       background: url("writingbanner.png") no-repeat;
       background-size: cover;
     }
-}
+} */
