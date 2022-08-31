@@ -1,0 +1,72 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+
+}
+
+div#navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+    /* fix the nav bar at the top of the viewport*/
+    position: fixed;
+    top: 0;
+    height: 1.25em;
+    background-color: green;
+    left: 25%;
+    width: 60%;
+}
+
+div.nav {
+    width: 30%;
+    text-align: center;
+}
+
+/* by default, hide any dropdown menu items */
+
+div.nav div.dropdownmenu a {
+    display: none;
+    text-decoration: none;
+    color: blue;
+    padding: 4px 4px;
+    background-color: aqua;
+    box-shadow: 2px 2px gray;
+}
+
+/* when the user hovers over the nav element, show the dorpdown items */
+
+div.nav:hover div.dropdownmenu a {
+    display: block;
+}
+
+
+#background-vid {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  h1#bankai {
+    margin-left: 40%;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin-top: 30%;
+    font-size: 7em;
+  }
+
+
+@media (max-width: 750px) {
+    #background-vid { display: none; }
+    body {
+      background: url("rubyyyyy.png") no-repeat;
+      background-size: cover;
+    }
+}
