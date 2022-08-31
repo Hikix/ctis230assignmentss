@@ -3,9 +3,9 @@
 
 }
 
-h1.heading {
+h1#heading {
     font-family: Comic Sans MS;
-    font-size: 39px;
+    font-size: 1em;
     margin-bottom: 6px;
     text-align: center;
     background-image: url(rubyyyyy.png);
@@ -120,7 +120,13 @@ body {
     /*animation: blinking 2s infinite;*/
 }
 
+button {
+    margin-left: 50%;
+}
 
+input {
+    margin-left: 45%;
+}
 
 h2.subH {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
