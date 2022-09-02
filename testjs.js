@@ -51,6 +51,7 @@ function makeRubyBig() {
         bigRuby = document.createElement("img");
         // now is when we load the big image from the server
         bigRuby.src ="bigRuby.png";
+        bigRuby.style.width= "300px";
         // make this new element a child of the div for the big image
         largeRuby.appendChild(bigRuby);
         // remove the dontshow class so that the div element is displayed
