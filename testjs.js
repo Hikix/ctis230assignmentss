@@ -39,3 +39,27 @@ function onChange() {
     heading = myinput.value;  
     spookay.innerHTML = heading;  
 }
+smolRuby = document.getElementById("morejs");
+largeRuby = document.getElementById("bigruby");
+smolRuby.addEventListener("click", makeRubyBig);
+largeRuby.addEventListener("click", hideBigRuby);
+
+function makeRubyBig() {
+        // first be sure that the largeview element has no leftover HTML
+        largeRuby.innerHTML = '';
+        // add an img element as a child of this largeview element
+        bigRuby = document.createElement("img");
+        // now is when we load the big image from the server
+        bigRuby.src ="bigRuby.png";
+        // make this new element a child of the div for the big image
+        largeRuby.appendChild(bigRuby);
+        // remove the dontshow class so that the div element is displayed
+        largeRuby.classList.remove("dontshow");
+
+
+}
+
+function hideBigRuby() {
+    // Just add the dontshow class back to that div, and the CSS rule for dontshow takes effect again
+    largeRuby.classList.add("dontshow");
+}
